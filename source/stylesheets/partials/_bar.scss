@@ -1,0 +1,35 @@
+.bar {
+  background-color: $gray;
+
+  dl {
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+    color: lighten($gray, 20%);
+    margin: 0;
+  }
+
+  dt {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+  }
+
+  dd {
+    margin-right: 13px;
+    display: inline-block;
+  }
+
+  .fa {
+    margin-right: 5px;
+  }
+}
+
+.language-switcher {
+  line-height: 38px;
+}

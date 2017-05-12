@@ -33,11 +33,14 @@ activate :i18n
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def get_opposite_language(language)
+    language == "en" ? "es" : "en"
+  end
+  def get_opposite_locale_path(language)
+    language == "en" ? "es/" : "/"
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
