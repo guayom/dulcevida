@@ -1,0 +1,19 @@
+$footer-color: $gray-medium;
+footer {
+  background-color: $gray-dark;
+  padding: 52px 0;
+  color: $footer-color;
+
+  h2 {
+    margin-top: 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: $footer-color;
+  }
+
+  p {
+    color: $footer-color;
+    font-size: 16px;
+    line-height: 1.625;
+  }
+}
