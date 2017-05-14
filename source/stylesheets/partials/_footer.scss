@@ -17,3 +17,40 @@ footer {
     line-height: 1.625;
   }
 }
+
+.back-to-top {
+    position: fixed;
+    right: 26px;
+    top: auto;
+    z-index: 999;
+    bottom: -60px;
+
+    &.affix {
+      bottom: 78px;
+    }
+
+    .btn {
+      background: #ecf0f1;
+      background: rgba(255, 255, 255, 0.9);
+      border: 0;
+      color: #3a766f;
+      height: 52px;
+      width: 52px;
+      border-radius: 50%;
+      line-height: 1;
+      padding: 0;
+      text-align: center;
+      font-size: 22px;
+      -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      transition: 0.2s;
+    }
+}
+
+.back-to-top.affix, .back-to-top.affix-top {
+    bottom: 78px;
+}
