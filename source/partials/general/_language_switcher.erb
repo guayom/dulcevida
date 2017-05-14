@@ -1,13 +1,6 @@
-<%
-@current_locale = I18n.locale.to_s
-@opposite_locale = get_opposite_language(@current_locale)
-
-@link = get_opposite_locale_path(@current_locale)
-
-#@current_page = current_page.path.split('/').size > 1 ? current_page.path.split('/')[-2] : nil
-%>
+<% @opposite_locale = get_opposite_language(@current_locale) %>
 <li class="language-switcher">
-   <a href='<%= @link %>' class="<%= @opposite_locale %>" lang="<%= @opposite_locale %>">
+   <a href='<%= current_page.data.translation %>' class="<%= @opposite_locale %>" lang="<%= @opposite_locale %>">
      <%= image_tag "/images/flags/#{@opposite_locale}.svg", width: 20 %>
    </a>
 </li>
