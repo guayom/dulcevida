@@ -1,0 +1,14 @@
+<div class="testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h2>What they're saying about La Dulce Vida</h2>
+        <ul class="list-unstyled">
+          <% data.testimonials.items.each do |t| %>
+            <li><%= t.content %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
