@@ -1,0 +1,16 @@
+.home-section-row {
+  border-bottom: 1px solid #dadedf;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+.home-section {
+  h3 {
+    color: $gray-dark;
+    margin: 0 0 13px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  p:last-of-type {
+    margin-bottom: 20px;
+  }
+}
