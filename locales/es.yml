@@ -1,3 +1,24 @@
 ---
 es:
-  hello: Hola
+  paths:
+    "la-dulce-vida": "la-dulce-vida"
+    "available-home-sites": "residencias-disponibles"
+    "consierge-center": "ldv-consierge"
+    location: ubicacion
+    "beach-club": "club-de-playa"
+    "4500-acres-to-explore": "4500-acres-para-explorar"
+    "beaches": playas
+    "jw-marriott-resort-spa": "jw-marriott-guanacaste-resort-spa"
+    "guanacaste-climate": "clima-de-guanacaste"
+    golf: "golf-de-18-hoyos"
+    "enjoy-explore": "disfrute-y-explore"
+    "nature-and-wildlife": "naturaleza-y-vida-silvestre"
+    "tennis-fitness-center": "tenis-y-centro-de-bienestar"
+    "equestrian-center": "centro-equestre"
+    "tours-excursions": "recorridos-turisticos-y-excursiones"
+    "contact-us": contacto
+  site_navigation:
+    home: Inicio
+  "available-home-sites": Residencias disponibles
+  learn_more: Conocer más
+  living_la_dulce_vida: Viviendo la Dulce Vida

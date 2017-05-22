@@ -1,3 +1,7 @@
 ---
 en:
-  hello: Hello
+  site_navigation:
+    home: Home
+  "available-home-sites": Available home sites
+  learn_more: Learn More
+  living_la_dulce_vida: Living la Dulce Vida

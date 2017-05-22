@@ -9,6 +9,12 @@
   transition: all 0.2s ease 0s;
 }
 
+.btn-primary {
+  color: $white;
+  background-color: $green;
+  border-color: $green;
+}
+
 .btn-rounded {
   border-radius: 26px;
   padding-left: 26px;
@@ -29,5 +35,17 @@
   &:hover {
     background-color: $green;
     color: $white;
+  }
+}
+
+.btn-sm, .btn-small, .btn-xs {
+    font-size: 14px;
+    padding: 6px 18px;
+    line-height: 26px;
+}
+
+@media screen and (min-width: 992px){
+  .btn-sm, .btn-small, .btn-xs {
+    padding: 6px 18px;
   }
 }

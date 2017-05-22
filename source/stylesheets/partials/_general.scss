@@ -5,3 +5,68 @@ body {
     color: $gray-nav;
     background-color: $white;
 }
+
+.page-title {
+  background: url(../images/slides/home-01.jpg);
+  z-index: 2;
+  background-size: 100% auto;
+  color: $white;
+  padding: 60px 0;
+  position: relative;
+
+  &:before {
+    background: $green;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    filter: alpha(opacity=95);
+    opacity: 0.7;
+  }
+
+  div {
+    z-index: 4;
+  }
+
+  h1 {
+    font-size: 56px;
+    margin-top: 0;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+  }
+}
+
+main {
+  padding-top: 52px;
+  padding-bottom: 52px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+aside {
+  border-top: 3px solid #dadedf;
+  padding: 26px;
+  background: #f4f6f7;
+  margin-top: 52px;
+
+  h3 {
+    color: #96a1a3;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    margin-top: 0;
+  }
+
+  .btn:first-of-type {
+    margin-bottom: 40px;
+  }
+}

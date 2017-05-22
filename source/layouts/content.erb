@@ -1,0 +1,36 @@
+<% wrap_layout :layout do %>
+  <div class="page-title">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1><%= current_page.data.title %></h1>
+          <% if current_page.data.subtitle.present? %>
+            <p><%= current_page.data.subtitle %></p>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-9 main-content">
+        <main>
+          <%= yield %>
+        </main>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-3 text-center">
+        <aside>
+          <h3><%= t(:"available-home-sites") %></h3>
+          <img title="<%= t(:'available-home-sites') %>" src="/images/banners/available-home-sites.jpg" alt="<%= t(:'available-home-sites') %>" class="img-responsive">
+          <br/>
+          <a class="btn btn-primary btn-small" title="<%= t(:'available-home-sites') %>" href="/en/la-dulce-vida/available-home-sites"><%= t(:learn_more) %></a>
+
+          <h3><%= t(:living_la_dulce_vida) %></h3>
+          <img title="<%= t(:living_la_dulce_vida) %>" src="/images/banners/beachfront-golf-course-resized-600.png" alt="<%= t(:living_la_dulce_vida) %>" class="img-responsive">
+          <br/>
+          <a class="btn btn-primary btn-small" title="<%= t(:living_la_dulce_vida) %>" href="/en/enjoy-explore"><%= t(:learn_more) %></a>
+        </aside>
+      </div>
+    </div>
+  </div>
+<% end %>

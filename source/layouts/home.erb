@@ -1,4 +1,10 @@
 <% wrap_layout :layout do %>
+  <% nav_items = sitemap.resources.select{|r| r.metadata[:options][:locale] == I18n.locale} %>
+  <ul>
+    <% nav_items.uniq.each do |r| %>
+      <li><%= r.path %></li>
+    <% end %>
+  </ul>
   <%= yield %>
   <%= partial 'partials/general/testimonials' %>
 <% end %>
