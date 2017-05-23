@@ -21,4 +21,4 @@ The goal of Richard Muller is to build your dream home by combining his deep und
 
 Garnier Architects, founded by Jean André in 2003, specializes in project development: commercial, industrial, residential and tourism. Jean André’s vision is to refresh traditional concepts in order to create projects with unique characteristics, based on extensive communication to fully materialize his client’s expectations with functional and efficient designs. Jean André welcomes and encourages the opportunity to introduce an “Inside Outside” relationship to his homes, bringing in Costa Rican nature to provide natural illumination and ventilation.
 
-![Download Jean Andre Garnier Concept Home for Lot 21](/images/pagesjean-andre-garnier-concept-lot-21.jpg)
+![Download Jean Andre Garnier Concept Home for Lot 21](/images/pages/jean-andre-garnier-concept-lot-21.jpg)

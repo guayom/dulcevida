@@ -10,7 +10,7 @@ At these beaches, property owners and guests enjoy an array of water sports opti
 
 Hacienda Pinilla is also home to 3 world class surf spots: Little Hawaii, Avellanas Rivermouth and Langosta. With limited access only to residents and their guests, surfers enjoy incredible warm water surf year round with very few people in the line-up (don’t tell anyone). Playa Negra, Playa Tamarindo and Playa Grande are all a short drive away and Witche’s Rock and Ollie’s Point are a one hour boat ride to the north.
 
-![Fishing](/images/pges/fishing.jpg)
+![Fishing](/images/pages/fishing.jpg)
 
 For those who enjoying fishing, the stretch of beach just in front of La Dulce Vida offers some of the best in shore fishing in the region. With excellent fishing all year you can enjoy catching Snook, Snapper, Rooster Fish, Jacks, Grouper and many other species right from the beach.
 

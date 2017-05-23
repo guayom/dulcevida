@@ -26,7 +26,7 @@
           <% directories = ['la-dulce-vida', 'hacienda-pinilla', 'beach-club', 'costa-rica', 'golf', 'enjoy-explore', 'contact-us'] %>
           <% directories.each do |r| %>
             <li <%= "class='dropdown'" unless ['contact-us', 'golf'].include? r %>>
-              <a href="#" class="dropdown-toggle nav-item" data-toggle="dropdown">
+              <a href="<%= locale_prefix + '/' + r %>/" class="nav-item">
                 <%= t("site_navigation.#{r}") %> <% unless ['contact-us', 'golf'].include? r %><i class="fa fa-chevron-down"></i><% end %>
               </a>
               <% unless ['contact-us', 'golf'].include? r %>
