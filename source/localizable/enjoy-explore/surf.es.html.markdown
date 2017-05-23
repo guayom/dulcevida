@@ -1,5 +1,6 @@
 ---
 title: Surf en Hacienda Pinilla
+weight: 3
 ---
 Costa Rica ha establecido una vasta reputación entre los surfistas alrededor del mundo. Con una temperatura promedio en el agua de 30ºC y surf sobresaliente durante la mayor parte del año, ¡es muy probable de que cualquier surfista pueda y logre encontrar grandiosas olas durante su vista a Costa Rica!
 

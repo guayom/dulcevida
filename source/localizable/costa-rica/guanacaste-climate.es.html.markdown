@@ -1,5 +1,6 @@
 ---
 title: Clima de Guanacaste
+weight: 2
 ---
 Guanacaste experimenta mucha menos precipitación que el resto de Costa Rica, con pocas lluvias y calor constante desde Noviembre hasta Abril, y una época verde/lluviosa desde finales de Mayo hasta Noviembre. Su clima cálido y seco hacen del bosque tropical seco la vegetación típica de la provincia.
 

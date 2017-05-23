@@ -1,5 +1,6 @@
 ---
 title: Centro Ecuestre
+weight: 4
 ---
 El Establo en Hacienda Pinilla cuenta con más de 40 caballos para recorridos a través de los bosques húmedos, playas y para cabalgatas a media noche. También hay paseos en carreola.
 

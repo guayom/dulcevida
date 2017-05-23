@@ -1,6 +1,7 @@
 ---
 title: Developer's Vision
 subtitle: Inspiring Costa Rica Beach Front Property
+weight: 2
 ---
 ![Developer's Vision](/images/pages/02.jpg)
 

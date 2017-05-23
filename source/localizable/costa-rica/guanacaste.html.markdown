@@ -1,6 +1,7 @@
 ---
 title: Guanacaste
 subtitle: Discover the Most Beautiful Beachfront Real Estate in Costa Rica - Discover Guanacaste!
+weight: 1
 ---
 La Dulce Vida is nestled in the exclusive Hacienda Pinilla community in the province of Guanacaste, on the North Pacific Coast of Costa Rica.  Guanacaste offers the best beaches of Costa Rica, however not all of the attractions in this area have to do with the blue ocean and warm, sandy beaches; there are also pristine rivers, volcanoes and important protected areas such as Santa Rosa National Park, not only a Costa Rican historic site but also home to 10 different habitats including mangroves, swamps and evergreen and dry forests.
 

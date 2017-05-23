@@ -1,5 +1,6 @@
 ---
 title: Equestrian Center
+weight: 4
 ---
 El Establo at Hacienda Pinilla has more than 40 horses for tours through rainforests, on beaches, and for midnight rides. There are also buggy rides.
 

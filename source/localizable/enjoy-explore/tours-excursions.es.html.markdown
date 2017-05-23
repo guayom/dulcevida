@@ -1,5 +1,6 @@
 ---
 title: Recorridos Turísticos y Excursiones
+weight: 5
 ---
 Costa Rica es famosa por ofrecer abundantes recorridos turísticos llenos de aventura y actividades para sus visitantes. No hay mucho por hacer y ver en Costa Rica, aparte de volcanes activos, exuberantes bosques húmedos, cataratas, pesca deportiva, recorridos por el dosel del bosque y mucho más; cada día puede estar totalmente equipado de une experiencia inolvidable.
 

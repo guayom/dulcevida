@@ -1,5 +1,6 @@
 ---
 title: Residencias disponibles
+weight: 1
 ---
 Pulse para descargar los documentos en tamaño real
 

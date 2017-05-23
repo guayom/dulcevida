@@ -1,5 +1,6 @@
 ---
 title: Location
+weight: 4
 ---
 La Dulce Vida está ubicado en la comunidad turística costera de 4,500 acres de Hacienda Pinilla. Una vez que ingrese a Hacienda Pinilla, encontrará la Dulce Vida situado entre el hoyo 14 de nuestro Campo de Golf de 18 hoyos estilo torneo y la playa.
 

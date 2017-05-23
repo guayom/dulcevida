@@ -1,5 +1,6 @@
 ---
 title: JW Marriott Guanacaste Resort & Spa at Hacienda Pinilla
+weight: 3
 ---
 Situado dentro de Hacienda Pinilla, a menos de un kilómetro de La Dulce Vida, se encuentra el hermoso JW Marriott Guanacaste Resort & Spa. El JW Marriott le ofrece un destino inimaginable en Costa Rica, con 310 lujosas habitaciones para huéspedes, incluyendo 20 Junior Suites. Este Centro Turístico de Costa Rica ha sido etiquetado como uno de los más exclusivos y lujosos centros turísticos de Latinoamérica. Este bello resort está ubicado en la aislada Playa Mansita, con acceso únicamente para huéspedes y residentes de Hacienda Pinilla. Cuenta con una de las piscinas más grandes de Centroamérica, abarcando un área de 7,620 m2 y provee una combinación de nichos privadas para parejas y divertido entretenimiento para familias.
 

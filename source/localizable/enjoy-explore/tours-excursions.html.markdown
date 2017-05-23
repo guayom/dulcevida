@@ -1,5 +1,6 @@
 ---
 title: Tours & Excursions
+weight: 5
 ---
 Costa Rica is famous for offering an abundance of adventurous tours and activities for its visitors. There is so much to see and do in Costa Rica; from active volcanoes, lush rainforests, waterfalls, sport fishing, canopy tours and much more, every day can be filled with an unforgettable experience.
 

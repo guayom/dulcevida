@@ -1,5 +1,6 @@
 ---
 title: Guanacaste Climate
+weight: 2
 ---
 Guanacaste experiences much less rain than the rest of Costa Rica, with little rain and consistent heat from November to April, and a green/wet season from late May to November. Its hot, dry climate makes tropical dry forests the province’s natural vegetation type.
 

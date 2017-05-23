@@ -1,6 +1,7 @@
 ---
 title: La Dulce Vida Consierge
 subtitle: Luxury Services for Residents
+weight: 3
 ---
 ## Setting the Standard in Ultimate Consierge Services
 

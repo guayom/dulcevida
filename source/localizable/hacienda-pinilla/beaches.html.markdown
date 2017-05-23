@@ -1,5 +1,6 @@
 ---
 title: Beaches
+weight: 2
 ---
 Hacienda Pinilla boasts three miles of beautiful coastline and is home to three of Guanacaste’s most beautiful beaches: Playa Avellanas, Playa Mansita and Playa Langosta, awarded the Blue Flag certificate for its beauty, and clean water and superior services.
 

@@ -1,5 +1,6 @@
 ---
 title: Playas de Hacienda Pinilla
+weight: 2
 ---
 Hacienda Pinilla alberga una hermosa costa de tres millas y es hogar de tres de las más bellas playas de Guanacaste: Playa Avellanas, Playa Mansita y Playa Langosta; galardonadas con el certificado Bandera Azul por su belleza, aguas limpias y superioridad en servicios.
 

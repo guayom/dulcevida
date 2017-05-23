@@ -1,5 +1,6 @@
 ---
 title: Location
+weight: 4
 ---
 ![Location](/images/pages/mapgnd.jpg)
 

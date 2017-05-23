@@ -1,5 +1,6 @@
 ---
 title: Tenis y Centro de Bienestar
+weight: 2
 ---
 Las instalaciones para la práctica del Tenis en Hacienda Pinilla satisfarán a cualquiera, desde principiantes hasta casi profesionales. Una superficie de alta calidad y suficiente espacio hacia los extremo de ambas canchas, con el único inconveniente de ser distraído por el asombroso escenario natural, rodeado por árboles de Guanacaste, es probable que no logre anticipar el saque topspin que va hacia usted. Un sistema de iluminación completo está disponible para juegos nocturnos.
 

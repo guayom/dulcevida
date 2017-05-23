@@ -1,5 +1,6 @@
 ---
 title: Guanacaste
+weight: 1
 ---
 La provincia de Guanacaste en la Costa Pacífica Norte de Costa Rica, tiene las mejores playas de Costa Rica; sin embargo, no todas las zonas atractivas de esta región están relacionadas con el océano azul y las cálidas, arenosas playas. También hay prístinos ríos, volcanes e importantes áreas protegidas tales como el Parque Nacional Santa Rosa, que además de ser un sitio histórico es hogar para 10 hábitats diferentes incluyendo manglares, pantanos, bosques siempre verdes y bosques secos. Parque Nacional Volcán Rincón de la Vieja es otra de las áreas protegidas, un refugio para aves y vida silvestre, cuenta con asombrosa vegetación, pozos de lava burbujeante, pozas de refrescante agua dulce y cataratas.
 

@@ -1,5 +1,6 @@
 ---
 title: Surf in Hacienda Pinilla
+weight: 3
 ---
 Costa Rica has established quite a reputation among surfers around the world. With an average water temperature of 80 degrees and outstanding surf most of the year, chances are any surfer can and will find great waves during their visit to Costa Rica!
 

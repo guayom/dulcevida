@@ -1,5 +1,6 @@
 ---
 title: Hacienda Pinilla- 4,500 acres to Explore
+weight: 1
 ---
 Located along the northern Pacific coast of Costa Rica, in the Guanacaste Province, lies on one of the most ambitious projects in all of Costa Rica.  
 

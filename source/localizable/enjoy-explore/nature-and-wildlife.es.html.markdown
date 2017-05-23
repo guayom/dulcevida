@@ -1,5 +1,6 @@
 ---
 title: Naturaleza y Vida Silvestre
+weight: 1
 ---
 Vivir en Hacienda Pinilla es como vivir en una reserva natural. El complejo residencial se asienta sobre un extenso bosque tropical seco, que alberga una amplia variedad de aves, insectos, anfibios, reptiles y mamíferos que van desde los tucanes hasta las mariposas, ranas, tortugas, iguanas y monos; los cuales pueden ser vistos lo largo de los pintorescos 16 kilómetros de senderos naturales.
 

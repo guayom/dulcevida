@@ -1,5 +1,6 @@
 ---
 title: Visión del Desarrollador
+weight: 2
 ---
 ![Developer's Vision](/images/pages/02.jpg)
 

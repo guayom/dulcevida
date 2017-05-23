@@ -1,5 +1,6 @@
 ---
 title: Nature and Wildlife
+weight: 1
 ---
 Living at Hacienda Pinilla is like living in a nature preserve. The residential development property sits on an extensive dry tropical forest, home to a wide variety of birds, insects, amphibians, reptiles and mammals ranging from toucans and butterflies to frogs, turtles, iguanas and monkeys – all of which can be seen right there along 16 kilometers of picturesque nature trails.
 

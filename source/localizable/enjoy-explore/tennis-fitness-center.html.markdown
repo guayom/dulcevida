@@ -1,5 +1,6 @@
 ---
 title: Tennis & Fitness Center
+weight: 2
 ---
 Hacienda Pinilla’s tennis facilities will satisfy anyone from beginners to near pros. A top quality surface and plenty of room along the sidelines of the two courts – the only problem will be being so distracted by breathtaking natural setting, surrounded by native Guanacaste trees, that you’ll miss that topspin serve coming at you. A full lighting system is available for night play.
 
