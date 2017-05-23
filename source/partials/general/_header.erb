@@ -23,24 +23,22 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right mainnav">
-          <li class="active">
-            <a href="#" class="nav-item">Link <span class="sr-only">(current)</span></a>
-          </li>
-          <li>
-            <a href="#" class="nav-item">Link</a>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle nav-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
+          <% directories = ['la-dulce-vida', 'hacienda-pinilla', 'beach-club', 'costa-rica', 'golf', 'enjoy-explore', 'contact-us'] %>
+          <% directories.each do |r| %>
+            <li <%= "class='dropdown'" unless ['contact-us', 'golf'].include? r %>>
+              <a href="#" class="dropdown-toggle nav-item" data-toggle="dropdown">
+                <%= t("site_navigation.#{r}") %> <% unless ['contact-us', 'golf'].include? r %><i class="fa fa-chevron-down"></i><% end %>
+              </a>
+              <% unless ['contact-us', 'golf'].include? r %>
+                <ul class="dropdown-menu">
+                  <% sitemap.resources.select{|p| p.url.include? r and p.metadata[:options][:locale] == I18n.locale and p.url.split('/').count > 2 }.uniq.each  do |page| %>
+                    <% page_path = page.url.split('/').last.to_s %>
+                    <li><%= link_to t("site_navigation.#{page_path}"), page.url %></li>
+                  <% end %>
+                </ul>
+              <% end %>
+            </li>
+          <% end %>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>

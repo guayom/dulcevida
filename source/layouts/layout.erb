@@ -7,9 +7,6 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "jquery-3.2.1.min" %>
-    <%= javascript_include_tag "bootstrap.min" %>
-    <%= javascript_include_tag "site" %>
   </head>
 
   <body>
@@ -18,5 +15,8 @@
     <%= yield %>
     <%= partial "partials/general/footer" %>
     <%= partial "partials/general/back_to_top" %>
+    <%= javascript_include_tag "jquery-3.2.1.min" %>
+    <%= javascript_include_tag "bootstrap.min" %>
+    <%= javascript_include_tag "site" %>
   </body>
 </html>
