@@ -54,16 +54,17 @@ helpers do
     (I18n.locale == :en) ? "" : "/" + I18n.locale.to_s
   end
   def page_translation
-    @locale = (I18n.locale == :en) ? "es" : ""
+    @locale = (I18n.locale == :en) ? "/es/" : "/"
     @translated_locale = (I18n.locale == :en) ? :es : :en
-    @url = current_page.url.split('/')[-1].to_s
-    @path = t(:paths).select{|k,v| v == @url}.keys[0].to_s
-    @directory = current_page.url.split('/')[-2].to_s != "es" ? "#{current_page.url.split('/')[-2].to_s}/" : ""
+    @url_array = current_page.url.split('/')
+    @url = @url_array[-1].to_s
+    @path = t("paths.#{t(:paths).select{|k,v| v == @url}.keys[0].to_s}", :locale => @translated_locale)
+    @directory = @url_array.count > 1 ? "#{t(:paths).select{|k,v| v == @url_array[-2]}.keys[0].to_s}/" : ""
 
     if current_page.data.is_index
-      "/#{@locale}"
+      @locale
     else
-      "/#{@locale}#{@directory}#{t("paths.#{@path}", :locale => @translated_locale)}"
+      @locale + @directory + @path
     end
   end
 end

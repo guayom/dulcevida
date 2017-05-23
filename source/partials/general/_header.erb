@@ -32,8 +32,8 @@
               <% unless ['contact-us', 'golf'].include? r %>
                 <ul class="dropdown-menu">
                   <% sitemap.resources.select{|p| p.url.include? r and p.metadata[:options][:locale] == I18n.locale and p.url.split('/').count > 2 }.uniq.sort_by {|obj| obj.data.weight}.each  do |page| %>
-                    <% page_path = page.url.split('/').last.to_s %>
-                    <li><%= link_to t("site_navigation.#{page_path}"), page.url %></li>
+                    <% english_path = t(:paths).select{|k,v| v == page.url.split('/').last.to_s}.keys[0].to_s %>
+                    <li><%= link_to t("site_navigation.#{english_path}"), page.url %></li>
                   <% end %>
                 </ul>
               <% end %>
