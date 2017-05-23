@@ -1,6 +1,7 @@
 ---
 layout: content
 title: Club de Playa de Hacienda Pinilla
+weight: 1
 ---
 Con un sencillo enfoque y majestuosa vista, el Club de Playa de Hacienda Pinilla le ofrece una vasta colección de comodidades que le permiten escapar de lo cotidiano, atreverse a la aventura y complementar su estilo de vida relajado con algunos lujos extraordinarios.
 

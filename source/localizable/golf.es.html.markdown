@@ -1,5 +1,6 @@
 ---
 title: Campo de Golf de 18 Hoyos de Hacienda Pinilla
+weight: 0
 ---
 El Campo de Golf de 18 hoyos de Hacienda Pinilla es conocido como uno de los mejores campos de golf en toda América Central. La obra maestra de campo de golf de 72 par y 6,675 m es creación de Mike Young, quien es además responsable de algunos de los más exclusivos campos en el Sur de los Estados Unidos.
 

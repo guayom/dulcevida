@@ -2,6 +2,7 @@
 layout: content
 title: Exclusive Luxury Beach Club for Home Owners at Hacienda Pinilla
 subtitle: Exclusive Luxury Beach Club for Home Owners at Hacienda Pinilla
+weight: 0
 ---
 The Hacienda Pinilla Beach Club is for the exclusive use of residents and guests of the Hacienda Pinilla community and offers just the perfect blend of staff, amenities and activities to cater to the entire family.
 

@@ -1,5 +1,22 @@
 ---
 en:
+  paths:
+    "la-dulce-vida": "la-dulce-vida"
+    "available-home-sites": "available-home-sites"
+    "consierge-center": "consierge-center"
+    location: location
+    "beach-club": "beach-club"
+    "4500-acres-to-explore": "4500-acres-to-explore"
+    "beaches": beaches
+    "jw-marriott-resort-spa": "jw-marriott-resort-spa"
+    "guanacaste-climate": "guanacaste-climate"
+    golf: "golf"
+    "enjoy-explore": "enjoy-explore"
+    "nature-and-wildlife": "nature-and-wildlife"
+    "tennis-fitness-center": "tennis-fitness-center"
+    "equestrian-center": "equestrian-center"
+    "tours-excursions": "tours-excursions"
+    "contact-us": contact-us
   site_navigation:
     home: Home
     'la-dulce-vida': La Dulce Vida

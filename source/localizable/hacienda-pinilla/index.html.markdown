@@ -1,5 +1,6 @@
 ---
 title: Hacienda Pinilla
+weight: 0
 ---
 Just far enough away to feel removed from it all. Just close enough for convenience and accessibility. Just perfect. That’s Hacienda Pinilla, a jewel in the crown of Guanacaste Peninsula upscale developments.
 

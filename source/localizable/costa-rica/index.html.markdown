@@ -1,5 +1,6 @@
 ---
 title: Living in Costa Rica
+weight: 0
 ---
 Costa Rica extends majestically from the Pacific Ocean to the Caribbean Sea, and its distance is barely 200 miles. Its land portion occupies only 20 thousand square miles, about the size of West Virginia.
 
