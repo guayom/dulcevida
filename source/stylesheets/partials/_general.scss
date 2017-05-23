@@ -4,6 +4,10 @@ body {
     line-height: 1.625;
     color: $gray-nav;
     background-color: $white;
+
+    .affix-top {
+      //padding-top: 143px;
+    }
 }
 
 .page-title {
