@@ -23,8 +23,6 @@ page "/golf/*", :layout => "content"
 page "/es/golf-de-18-hoyos", :layout => "content"
 page "/enjoy-explore/*", :layout => "content"
 page "/es/disfrute-y-explore/*", :layout => "content"
-page "/contact-us/*", :layout => "content"
-page "/contact-us", :layout => "content"
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
