@@ -24,6 +24,7 @@ footer {
     top: auto;
     z-index: 999;
     bottom: -60px;
+    display: none;
 
     &.affix {
       bottom: 78px;
