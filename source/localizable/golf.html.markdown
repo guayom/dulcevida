@@ -2,7 +2,7 @@
 title: Hacienda Pinilla‘s Championship Golf Course
 subtitle: Exclusive 18-Hole Course for the Hacienda Pinilla Community
 layout: content
-weight: 0
+weight: 4
 ---
 Hacineda Pinilla ‘s Championship Golf Course is known as one the best golf courses in all of Central America. The 7,300-yard, par 72 masterpiece golf course is the creation of Mike Young, who is responsible for some of the finest courses in the southern United States.
 

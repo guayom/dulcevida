@@ -1,6 +1,6 @@
 ---
 title: Viviendo en Costa Rica
-weight: 0
+weight: 3
 ---
 Costa Rica se extiende majestuosamente desde el Océano Pacífico hasta el Mar Caribe y su distancia es de apenas 200 millas. Su territorio abarca 51,100 km2, más o menos el tamaño de Virginia del Oeste.
 

@@ -53,8 +53,11 @@ helpers do
   def locale_prefix
     (I18n.locale == :en) ? "" : "/" + I18n.locale.to_s
   end
+  def navigation_item_title(page)
+    t("site_navigation.#{t(:paths).select{|k,v| v == page.split('/').last.to_s}.keys[0].to_s}")
+  end
   def page_translation
-    @locale = (I18n.locale == :en) ? "/es/" : "/"
+    @locale = (I18n.locale == :en) ? "es" : ''
     @translated_locale = (I18n.locale == :en) ? :es : :en
     @url_array = current_page.url.split('/')
     @url = @url_array[-1].to_s
@@ -64,7 +67,7 @@ helpers do
     if current_page.data.is_index
       @locale
     else
-      @locale + @directory + @path
+      @locale + @directory +  @path
     end
   end
 end

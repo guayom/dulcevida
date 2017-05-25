@@ -1,8 +1,11 @@
+<% @translated_locale = (I18n.locale == :en) ? :es : :en %>
+<% @translated_locale_prefix = (I18n.locale == :en) ? "/es/" : "/" %>
+<% translatable_path = current_page.url.split('/').reject{|c| c.empty? or c == I18n.locale.to_s}.collect{|c| c = t("paths.#{t(:paths).select{|k,v| v == c}.keys[0].to_s}", :locale => @translated_locale)}.insert('es') %>
+
 <ul class="list-unstyled">
-  <% @opposite_locale = get_opposite_language(I18n.locale.to_s) %>
   <li class="language-switcher">
-     <a href='<%= page_translation %>' class="<%= @opposite_locale %>" lang="<%= @opposite_locale %>">
-       <%= image_tag "/images/flags/#{@opposite_locale}.svg", width: 20 %>
-     </a>
+    <a href="<%= @translated_locale_prefix + translatable_path.join("/") %>" lang="<%= @translated_locale %>" class="<%= @translated_locale %>">
+      <%= image_tag "/images/flags/#{@translated_locale}.svg", width: 20 %>
+    </a>
   </li>
 </ul>

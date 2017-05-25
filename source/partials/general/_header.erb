@@ -23,17 +23,20 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right mainnav">
-          <% directories = ['la-dulce-vida', 'hacienda-pinilla', 'beach-club', 'costa-rica', 'golf', 'enjoy-explore', 'contact-us'] %>
-          <% directories.each do |r| %>
-            <li <%= "class='dropdown'" unless ['contact-us', 'golf'].include? r %>>
-              <a href="<%= locale_prefix + '/' + r %>/" class="nav-item">
-                <%= t("site_navigation.#{r}") %> <% unless ['contact-us', 'golf'].include? r %><i class="fa fa-chevron-down"></i><% end %>
+          <% @limit = I18n.locale == :es ? 4 : 3 %>
+          <% sitemap.resources.select{|p| p.metadata[:options][:locale] == I18n.locale and p.url.split('/').count < @limit and p.url != '/es/' and p.url != '/' and not p.url.include?('/test/') }.sort_by {|p| p.data.weight}.map{ |p| p.url}.uniq.each do |page| %>
+
+            <% children = sitemap.resources.select{|p| p.url.include?(page) and p.metadata[:options][:locale] == I18n.locale }.map{ |p| p.url}.uniq %>
+
+            <li <%= "class='dropdown'" if children.count > 1 %>>
+              <a href="<%= page %>" class="nav-item">
+                <%= navigation_item_title(page) %><% if children.count > 1 %> <i class="fa fa-chevron-down"></i><% end %>
               </a>
-              <% unless ['contact-us', 'golf'].include? r %>
+
+              <% if children.count > 1 %>
                 <ul class="dropdown-menu">
-                  <% sitemap.resources.select{|p| p.url.include? r and p.metadata[:options][:locale] == I18n.locale and p.url.split('/').count > 2 }.uniq.sort_by {|obj| obj.data.weight}.each  do |page| %>
-                    <% english_path = t(:paths).select{|k,v| v == page.url.split('/').last.to_s}.keys[0].to_s %>
-                    <li><%= link_to t("site_navigation.#{english_path}"), page.url %></li>
+                  <% children.select{|p| p.split('/').count > @limit - 1 }.each do |child| %>
+                    <li><%= link_to navigation_item_title(child), child %></li>
                   <% end %>
                 </ul>
               <% end %>

@@ -1,7 +1,7 @@
 ---
 title: Enjoy & Explore the Best of Costa Rica!
 subtitle: Your Costa Rica Get-Away is More than Just a Vacation Home...
-weight: 0
+weight: 5
 ---
 At Hacienda Pinilla you’ll find the most amazing activities.  Whether day or night, we have something available to keep you satisfied.  For you, for couples, or for the whole family, we assure fun and excitement is on the menu.
 
