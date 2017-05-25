@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right mainnav">
           <% @limit = I18n.locale == :es ? 4 : 3 %>
-          <% sitemap.resources.select{|p| p.metadata[:options][:locale] == I18n.locale and p.url.split('/').count < @limit and p.url != '/es/' and p.url != '/' and not p.url.include?('/test/') }.sort_by {|p| p.data.weight}.map{ |p| p.url}.uniq.each do |page| %>
+          <% sitemap.resources.select{|p| p.metadata[:options][:locale] == I18n.locale and p.url.split('/').count < @limit and p.url != '/es/' and p.url != '/' and not p.data.excluded_from_navigation and not p.url.include?('/test/') }.sort_by {|p| p.data.weight}.map{ |p| p.url}.uniq.each do |page| %>
 
             <% children = sitemap.resources.select{|p| p.url.include?(page) and p.metadata[:options][:locale] == I18n.locale }.map{ |p| p.url}.uniq %>
 

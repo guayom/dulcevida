@@ -1,0 +1,225 @@
+.contact .dl-horizontal > dt {
+  display: none;
+}
+.contact .dl-horizontal > dd {
+  margin-left: 0;
+}
+.contact .page-header, .contact-information .page-header{
+  margin: 0;
+  padding: 0;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+.contact .page-header h2,
+.contact h3 {
+  color: #27292e;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0 0 26px 0;
+  text-transform: uppercase;
+}
+.contact .contact-left {
+  margin-bottom: 26px;
+}
+.contact .panel-body {
+  padding: 26px;
+}
+.contact .panel-body .col-sm-12 {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+.contact .panel-body .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  .contact .panel-body #jform_contact_emailmsg {
+    width: auto;
+  }
+}
+.contact .tab-content {
+  padding-top: 26px;
+}
+@media (min-width: 768px) {
+  .contact .tab-content #jform_contact_emailmsg {
+    width: auto;
+  }
+}
+.contact-form legend {
+  border-bottom: 0;
+  color: #ff8800;
+  font-size: 15px;
+}
+.contact-form #jform_contact_emailmsg {
+  width: 100%;
+}
+.contact-form .form-group .control-label {
+  padding-top: 0;
+  text-align: left;
+  vertical-align: top;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #3d4045;
+}
+@media (min-width: 992px) {
+  .contact-form .form-group .control-label {
+    display: inline-block;
+    width: 12%;
+  }
+}
+.contact-form .form-group .control-label.invalid {
+  border: 0;
+}
+.contact-form .form-group #jform_captcha-lbl {
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+}
+.contact-form .checkbox input[type="checkbox"] {
+  margin-left: 0;
+  width: auto;
+}
+.contact-form .control-btn {
+  margin-top: 13px;
+}
+@media (min-width: 768px) {
+  .contact-form .control-btn {
+    margin-top: 0;
+    text-align: right;
+  }
+}
+.contact-miscinfo {
+  margin-bottom: 52px;
+}
+.contact-miscinfo dl {
+  margin-bottom: 0;
+}
+.contact-address {
+  margin-bottom: 52px;
+
+  dd {
+    margin-bottom: 5px;
+    margin-left: 0;
+    .fa {
+      width: 16px;
+      margin-right: 6px;
+    }
+  }
+}
+
+.contact-links ul li {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+.contact-links ul li a {
+  background: none;
+  border: 1px solid #3a766f;
+  border-radius: 20px;
+  color: #3a766f;
+  padding: 6px 16px;
+  position: relative;
+  transition: 0.5s;
+}
+.contact-links ul li a:hover,
+.contact-links ul li a:active,
+.contact-links ul li a:focus {
+  background: #3a766f;
+  color: #ffffff;
+}
+.contact .accordion-toggle {
+  font-weight: 700;
+}
+.plain-style-1 {
+  margin-bottom: 60px;
+}
+.contact-header-1 {
+  text-align: center;
+}
+.contact-header-1 h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.contact-header-1 .contact-name {
+  color: #000000;
+  font-weight: 300;
+}
+.form-group-1 {
+  margin-bottom: 30px;
+}
+.form-group-1 input {
+  border: 1px solid #eef1f3;
+  background-color: #eef1f3;
+  font-size: 17px;
+  font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  height: 70px;
+  width: 100%;
+  width: 100% \9!important;
+  line-height: 55px \9;
+}
+.form-group-1 input::-moz-placeholder {
+  color: #505656;
+  opacity: 1;
+}
+.form-group-1 input:-ms-input-placeholder {
+  color: #505656;
+}
+.form-group-1 input::-webkit-input-placeholder {
+  color: #505656;
+}
+.form-group-1 input:focus {
+  box-shadow: none;
+  border: 1px solid #e5eaec;
+  background-color: #e5eaec;
+}
+.form-group-1 input.invalid {
+  border-color: #ff6666;
+}
+.form-group-1 textarea {
+  border: 1px solid #eef1f3;
+  background-color: #eef1f3;
+  font-size: 17px;
+  font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+.form-group-1 textarea::-moz-placeholder {
+  color: #505656;
+  opacity: 1;
+}
+.form-group-1 textarea:-ms-input-placeholder {
+  color: #505656;
+}
+.form-group-1 textarea::-webkit-input-placeholder {
+  color: #505656;
+}
+.form-group-1 textarea:focus {
+  box-shadow: none;
+  background-color: #e5eaec;
+}
+.form-group-1 textarea.invalid {
+  border-color: #ff6666;
+}
+.form-group-1 .checkbox {
+  font-size: 16px;
+}
+.form-group-1 .checkbox input {
+  margin-left: 0;
+  margin-top: 6px;
+  height: auto;
+  float: left;
+  width: auto;
+  width: auto \9!important;
+}
+.form-group-1 .control-btn {
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  .form-group-1 .control-btn {
+    text-align: left;
+    margin-top: 26px;
+  }
+}

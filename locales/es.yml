@@ -26,6 +26,7 @@ es:
     "tennis-fitness-center": tenis-y-centro-de-bienestar
     "architect-builder-partners": programa-de-arquitectos-y-constructores
     surf: surf
+    "thank-you": gracias
   site_navigation:
     home: Home
     'la-dulce-vida': La Dulce Vida
@@ -56,3 +57,13 @@ es:
   "available-home-sites": Residencias disponibles
   learn_more: Conocer más
   living_la_dulce_vida: Viviendo la Dulce Vida
+  contact:
+    required_fields: Envíenos un correo. Todos los campos con un asterisco (*) son requeridos.
+    name: Nombre
+    email: Email
+    subject: Asunto
+    message: Mensaje
+    submit: Enviar
+    title: Contacto
+    information: Información
+    thanks: "/es/gracias/"
