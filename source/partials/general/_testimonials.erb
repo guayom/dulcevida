@@ -1,14 +1,27 @@
-<div class="testimonials">
+<section id="carousel" class="testimonials">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 text-center">
-        <h2>What they're saying about La Dulce Vida</h2>
-        <ul class="list-unstyled">
-          <% data.testimonials.items.each do |t| %>
-            <li><i class="fa fa-quote-left fa-big-section"></i><br/><%= t.content %></li>
-          <% end %>
-        </ul>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+            <% data.testimonials.items.each_with_index do |t, i| %>
+              <li data-target="#fade-quote-carousel" data-slide-to="<%= i %>" <%= 'class="active"' if i == 0 %>></li>
+            <% end %>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <% data.testimonials.items.each_with_index do |t, i| %>
+              <div class="<%= 'active ' if i == 0 %>item">
+                <blockquote>
+                  <%= t.content %>
+                </blockquote>
+              </div>
+            <% end %>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
