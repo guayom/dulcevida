@@ -86,11 +86,27 @@
 }
 
 .carousel-control {
+  display: none;
   span {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: normal;
   }
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 65%;
+  transform: translateY(-65%);
+  left: 0;
+  font-size: 2em;
+  text-shadow: none;
+}
+
+#carousel-example-generic:hover > .carousel-control {
+  display: block;
 }
