@@ -1,0 +1,7 @@
+backend:
+  name: github
+  repo: guayo/dulcevida
+  branch: master
+
+media_folder: "source/images/uploads"
+public_folder: "/images/uploads"
