@@ -98,8 +98,8 @@
 
   a {
     border-radius: 52px;
-    font-size: 20px;
-    padding: 20px 52px;
+    font-size: 14px;
+    padding: 10px 25px;
     line-height: 26px;
     color: #141414;
     background-color: rgba(225, 225, 225, 0.9);
@@ -114,5 +114,9 @@
     border: 1px solid transparent;
     white-space: nowrap;
     display: inline-block;
+    @media (min-width: 575px) {
+      font-size: 20px;
+      padding: 20px 52px;
+    }
   }
 }
