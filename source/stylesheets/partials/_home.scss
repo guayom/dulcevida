@@ -1,7 +1,12 @@
 .home-section-row {
   border-bottom: 1px solid #dadedf;
-  padding-top: 104px;
-  padding-bottom: 104px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: left;
+  @media (min-width: 576px) {
+    padding-top: 104px;
+    padding-bottom: 104px;
+  }
 }
 .home-section {
   h3 {
@@ -13,10 +18,21 @@
   p:last-of-type {
     margin-bottom: 20px;
   }
+  img {
+    margin-bottom: 20px;
+    @media (min-width: 576px) {
+      margin-bottom: 0;
+    }
+  }
 }
 .testimonials {
-  padding-top: 104px;
-  padding-bottom: 104px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @media (min-width: 576px) {
+    padding-top: 104px;
+    padding-bottom: 104px;
+  }
 
   h2 {
     font-size: 45px;
@@ -32,6 +48,13 @@
     margin-bottom: 30px;
     font-size: 15px;
     margin-bottom: 26px;
+}
+
+.home-section-right {
+  text-align: left;
+  @media (min-width: 576px) {
+    text-align: right;
+  }
 }
 
 /*-------------------------------*/
