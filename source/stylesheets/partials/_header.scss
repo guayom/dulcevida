@@ -1,6 +1,6 @@
 header {
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid $gray-light;
   background-color: rgba(255, 255, 255, 0.97);
   z-index: 1022;
@@ -13,6 +13,11 @@ header {
     transition: top 0.3s;
   width: auto;
   clear: both;
+
+  @media (min-width: 576px) {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
 }
 
 .logo {
@@ -34,8 +39,12 @@ header {
   }
 
   img {
-    max-height: 90px;
-    max-width: 100%;
+    width: 110px;
+
+    @media (min-width: 576px) {
+      max-height: 90px;
+      max-width: 100%;
+    }
   }
 }
 
@@ -115,4 +124,32 @@ li.dropdown li a {
 li.dropdown li:hover > a{
   background: #3a766f;
   color: #fff;
+}
+
+.navbar-collapse {
+  width: 100%;
+}
+
+.navbar-nav {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 576px) {
+  .dropdown-menu {
+    display: block;
+    position: relative;
+    float: none;
+    border: 0;
+    box-shadow: none;
+    min-width: 0;
+    padding: 0;
+    background: transparent;
+  }
+  .mainnav .nav-item {
+    padding-top: 0;
+  }
+  .navbar-nav {
+    margin-top: 0;
+  }
 }
