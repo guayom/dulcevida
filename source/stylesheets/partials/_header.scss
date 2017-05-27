@@ -153,3 +153,8 @@ li.dropdown li:hover > a{
     margin-top: 0;
   }
 }
+
+.navbar-collapse.in {
+    overflow-y: scroll;
+    height: 80vh;
+}
