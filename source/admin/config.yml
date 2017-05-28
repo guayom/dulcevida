@@ -10,6 +10,7 @@ collections:
   - name: "localizable"
     label: "Localizable"
     folder: "source/localizable"
+    sort: "weight:asc"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "content"}
