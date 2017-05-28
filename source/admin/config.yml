@@ -7,13 +7,13 @@ media_folder: "source/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "localizable"
-    label: "Localizable"
-    folder: "source/localizable"
+  - name: "beach-club"
+    label: "Beach club"
+    folder: "source/localizable/beach-club"
     sort: "weight:asc"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "content"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Sub-title", name: "dubtitle", widget: "string"}
-      - {label: "Wight", name: "weight", widget: "number"}
+      - {label: "Sub-title", name: "subtitle", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number"}
