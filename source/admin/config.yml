@@ -7,9 +7,9 @@ media_folder: "source/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "beach-club"
-    label: "Beach club"
-    folder: "source/localizable/beach-club"
+  - name: "test"
+    label: "Test"
+    folder: "source/localizable/test"
     sort: "weight:asc"
     create: true
     fields:
