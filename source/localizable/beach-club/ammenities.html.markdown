@@ -1,5 +1,7 @@
 ---
+layout: content
 title: Ammenities
+subtitle:
 weight: 1
 ---
 The open-air Avellanas restaurant and bar is located on the main level and offers a broad menu of national and international cuisine. The restaurant is the perfect setting to enjoy lunch or cocktail while enjoying the views of the pool and beach.
