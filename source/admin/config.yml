@@ -7,9 +7,9 @@ media_folder: "source/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "test"
-    label: "Test"
-    folder: "source/localizable/test"
+  - name: "beach-club"
+    label: "Beach Club"
+    folder: "source/localizable/beach-club"
     sort: "weight:asc"
     create: true
     fields:
@@ -17,3 +17,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sub-title", name: "subtitle", widget: "string"}
       - {label: "Weight", name: "weight", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
