@@ -86,7 +86,7 @@ collections:
     files:
       - name: "general"
         label: "Site Settings"
-        file: "data/settings.yml"
+        file: "data/general.yml"
         description: "General Site Settings"
         fields:
           - {label: "Global title", name: "site_title", widget: "string"}
@@ -99,7 +99,7 @@ collections:
               - {label: "Default Author", name: author, widget: string}
               - {label: "Default Thumbnail", name: thumb, widget: image, class: "thumb"}
       - name: "testimonials"
-        label: "Testimonials"
+        label: "testimonials"
         file: "data/testimonials.yml"
         description: "Author descriptions"
         fields:
