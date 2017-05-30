@@ -18,3 +18,15 @@ collections:
       - {label: "Sub-title", name: "subtitle", widget: "string"}
       - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "costa-rica"
+    label: "Costa Rica articles"
+    folder: "source/localizable/costa-rica"
+    sort: "weight:asc"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "content"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-title", name: "subtitle", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
