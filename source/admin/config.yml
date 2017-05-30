@@ -78,3 +78,16 @@ collections:
       - {label: "Sub-title", name: "subtitle", widget: "string"}
       - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - name: "general"
+        label: "Site Settings"
+        file: "data/settings.yml"
+        description: "General Site Settings"
+        fields:
+          - {label: "Global title", name: "site_title", widget: "string"}
+          - {label: "Contact email", name: "contact_email", widget: "string"}
