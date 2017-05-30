@@ -101,11 +101,11 @@ collections:
       - name: "testimonials"
         label: "testimonials"
         file: "data/testimonials.yml"
-        description: "Author descriptions"
+        description: "Testimonials"
         fields:
-          - name: authors
-            label: Authors
+          - name: testimonials
+            label: Testimonials
             widget: list
             fields:
               - {label: "Language", name: "language", widget: "string"}
-              - {label: "Content", name: "description", widget: "markdown"}
+              - {label: "Content", name: "description", widget: "string"}
