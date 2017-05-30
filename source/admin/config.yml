@@ -103,9 +103,9 @@ collections:
         file: "data/testimonials.yml"
         description: "Testimonials"
         fields:
-          - name: testimonials
+          - name: items
             label: Testimonials
             widget: list
             fields:
               - {label: "Language", name: "language", widget: "string"}
-              - {label: "Content", name: "description", widget: "string"}
+              - {label: "Content", name: "content", widget: "string"}
