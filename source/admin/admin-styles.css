@@ -17,6 +17,7 @@ h1 {
   font-weight: 400;
   z-index: 2;
   position: relative;
+  line-height: 1;
 }
 
 .header {
