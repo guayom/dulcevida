@@ -15,3 +15,6 @@ items:
       Breathtaking. if you could describe this experience in one word, that
       would be the one.
     language: en
+testimonials:
+  - description: this is a test
+    language: en
