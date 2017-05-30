@@ -1,8 +1,30 @@
 h1 {
-  background: blue;
-  color: #fff;
+  font-size: 56px;
+  margin-top: 0;
+  font-weight: 400;
+  z-index: 2;
+  position: relative;
 }
 
 .header {
-  background: purple;
+  background: url(../images/slides/home-01.jpg);
+  z-index: 2;
+  background-size: 100% auto;
+  color: #fff;
+  padding: 60px 0;
+  position: relative;
+}
+
+.header:before {
+  background: #3a766f;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  filter: alpha(opacity=95);
+  opacity: 0.7;
 }

@@ -20,7 +20,7 @@
         return h('div', {},
           h('div', {"className": "header"},
             h('h1', {}, entry.getIn(['data', 'title'])),
-            h('h2', {}, entry.getIn(['data', 'subtitle']))
+            h('p', {}, entry.getIn(['data', 'subtitle']))
           ),
           h('div', {"className": "text"}, this.props.widgetFor('body'))
         );
