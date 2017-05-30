@@ -30,7 +30,7 @@ collections:
       - {label: "Sub-title", name: "subtitle", widget: "string"}
       - {label: "Weight", name: "weight", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-            
+
   - name: "beach-club"
     label: "Beach club articles"
     folder: "source/localizable/beach-club"
@@ -58,6 +58,18 @@ collections:
   - name: "enjoy-explore"
     label: "Enjoy & explore articles"
     folder: "source/localizable/enjoy-explore"
+    sort: "weight:asc"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "content"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-title", name: "subtitle", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "golf"
+    label: "Golf articles"
+    folder: "source/localizable/golf"
     sort: "weight:asc"
     create: true
     fields:
