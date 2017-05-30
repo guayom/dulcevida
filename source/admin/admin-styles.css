@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,700italic');
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #505656;
+  background-color: #fff;
+  font-weight: 300;
 }
 h1 {
   font-size: 56px;
