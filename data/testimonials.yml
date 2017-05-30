@@ -1,8 +1,3 @@
-authors:
-  - description: hey you
-    language: en
-  - description: hello my friend
-    language: en
 items:
   - content: The views are spectacular! Unlike anything we've ever seen in Costa Rica.
     language: en
@@ -14,7 +9,4 @@ items:
   - content: >-
       Breathtaking. if you could describe this experience in one word, that
       would be the one.
-    language: en
-testimonials:
-  - description: this is a test
     language: en
