@@ -39,6 +39,41 @@
       }
     });
 
+    var GeneralPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var title = entry.getIn(['data', 'site_title']);
+        var posts = entry.getIn(['data', 'posts']);
+        var thumb = posts && posts.get('thumb');
+        return h('div', {},
+          h('h1', {}, title),
+          h('dl', {},
+            h('dt', {}, 'Posts on Frontpage'),
+            h('dd', {}, this.props.widgetsFor('posts').getIn(['widgets', 'front_limit']) || 0),
+            h('dt', {}, 'Default Author'),
+            h('dd', {}, this.props.widgetsFor('posts').getIn(['data', 'author']) || 'None'),
+            h('dt', {}, 'Default Thumbnail'),
+            h('dd', {}, thumb && h('img', {src: this.props.getAsset(thumb).toString()}))
+          )
+        );
+      }
+    });
+
+    var TestimonialsPreview = createClass({
+      render: function() {
+        return h('div', {},
+          h('h1', {}, 'Testimonials'),
+          this.props.widgetsFor('testimonials').map(function(author, index) {
+            return h('div', {key: index},
+              h('hr', {}),
+              h('strong', {}, author.getIn(['data', 'content'])),
+              author.getIn(['widgets', 'description'])
+            );
+          })
+        );
+      }
+    });
+
     CMS.registerPreviewTemplate("beach-club", ArticlePreview);
     CMS.registerPreviewTemplate("costa-rica", ArticlePreview);
     CMS.registerPreviewTemplate("enjoy-explore", ArticlePreview);
@@ -46,6 +81,9 @@
     CMS.registerPreviewTemplate("la-dulce-vida", ArticlePreview);
     CMS.registerPreviewTemplate("golf", ArticlePreview);
     CMS.registerPreviewStyle("/admin/admin-styles.css");
+    CMS.registerPreviewTemplate("general", GeneralPreview);
+    CMS.registerPreviewTemplate("testimonials", TestimonialsPreview);
+
   </script>
 </body>
 </html>
