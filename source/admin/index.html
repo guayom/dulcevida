@@ -11,21 +11,24 @@
 <body>
   <script src="https://unpkg.com/netlify-cms/dist/cms.js"></script>
   <script>
-    CMS.registerPreviewStyle("/admin/admin-styles.css");
+
     var ArticlePreview = createClass({
       render: function() {
         var entry = this.props.entry;
         var title = entry.getIn(['data', 'title']);
         var subtitle = entry.getIn(['data', 'subtitle']);
         return h('div', {},
-          h('h1', {}, entry.getIn(['data', 'title'])),
-          h('h2', {}, entry.getIn(['data', 'subtitle'])),
+          h('div', {"className": "header"},
+            h('h1', {}, entry.getIn(['data', 'title'])),
+            h('h2', {}, entry.getIn(['data', 'subtitle']))
+          ),
           h('div', {"className": "text"}, this.props.widgetFor('body'))
         );
       }
     });
 
     CMS.registerPreviewTemplate("beach-club", ArticlePreview);
+    CMS.registerPreviewStyle("/admin/admin-styles.css");
   </script>
 </body>
 </html>
