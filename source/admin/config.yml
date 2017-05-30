@@ -7,6 +7,30 @@ media_folder: "source/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+  - name: "la-dulce-vida"
+    label: "La dulce vida articles"
+    folder: "source/localizable/la-dulce-vida"
+    sort: "weight:asc"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "content"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-title", name: "subtitle", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "hacienda-pinilla"
+    label: "Hacienda Pinilla articles"
+    folder: "source/localizable/hacienda-pinilla"
+    sort: "weight:asc"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "content"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-title", name: "subtitle", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+            
   - name: "beach-club"
     label: "Beach club articles"
     folder: "source/localizable/beach-club"
@@ -22,6 +46,18 @@ collections:
   - name: "costa-rica"
     label: "Costa Rica articles"
     folder: "source/localizable/costa-rica"
+    sort: "weight:asc"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "content"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-title", name: "subtitle", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "enjoy-explore"
+    label: "Enjoy & explore articles"
+    folder: "source/localizable/enjoy-explore"
     sort: "weight:asc"
     create: true
     fields:
