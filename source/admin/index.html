@@ -7,21 +7,23 @@
 
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms/dist/cms.css" />
 
+  <script>
+    window.repoFiles = {
+     data: {
+       "general.yml": {
+         content: '{"site_title": "La Dulce Vida Costa Rica"}'
+       },
+       "testimonials.yml": {
+         content: "items:\n  - language: en\n    content: The views are spectacular! Unlike anything we've ever seen in Costa Rica.\n  - language: en\n    content: We wanted to get away from the normal vacation and Hacienda Pinilla was the perfect answer. There are so many things to do! Though we spent a lot of time at the Beach club and the kids loved it.\n"
+       }
+     }
+    }
+  </script>
+
 </head>
 <body>
   <script src="https://unpkg.com/netlify-cms/dist/cms.js"></script>
   <script>
-  window.repoFiles = {
-   data: {
-     "general.yml": {
-       content: '{"site_title": "La Dulce Vida Costa Rica"}'
-     },
-     "testimonials.yml": {
-       content: "items:\n  - language: en\n    content: The views are spectacular! Unlike anything we've ever seen in Costa Rica.\n  - language: en\n    content: We wanted to get away from the normal vacation and Hacienda Pinilla was the perfect answer. There are so many things to do! Though we spent a lot of time at the Beach club and the kids loved it.\n"
-     }
-   }
-  }
-
     var ArticlePreview = createClass({
       render: function() {
         var entry = this.props.entry;
