@@ -107,5 +107,5 @@ collections:
             label: Testimonials
             widget: list
             fields:
-              - {label: "Language", name: "language", widget: "string"}
               - {label: "Content", name: "content", widget: "string"}
+              - {label: "Language", name: "language", widget: "string"}
