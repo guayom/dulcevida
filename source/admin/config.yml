@@ -98,3 +98,14 @@ collections:
               - {label: "Number of posts on frontpage", name: front_limit, widget: number}
               - {label: "Default Author", name: author, widget: string}
               - {label: "Default Thumbnail", name: thumb, widget: image, class: "thumb"}
+      - name: "testimonials"
+        label: "Testimonials"
+        file: "data/testimonials.yml"
+        description: "Author descriptions"
+        fields:
+          - name: authors
+            label: Authors
+            widget: list
+            fields:
+              - {label: "Language", name: "language", widget: "string"}
+              - {label: "Content", name: "description", widget: "markdown"}
