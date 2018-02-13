@@ -24,21 +24,10 @@ page "/es/golf-de-18-hoyos", :layout => "content"
 page "/enjoy-explore/*", :layout => "content"
 page "/es/disfrute-y-explore/*", :layout => "content"
 
-# With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
-
 activate :i18n
 
 # Proxy pages
 proxy "_redirects", "netlify-redirects", ignore: true
-
-# proxy(
-#   '/this-page-has-no-template.html',
-#   '/template-file.html',
-#   locals: {
-#     which_fake_page: 'Rendering a fake page with a local variable'
-#   },
-# )
 
 # Helpers
 helpers do
@@ -65,7 +54,7 @@ helpers do
     if current_page.data.is_index
       @locale
     else
-      @locale + @directory +  @path
+      @locale + @directory + @path
     end
   end
 end
@@ -73,7 +62,7 @@ end
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
