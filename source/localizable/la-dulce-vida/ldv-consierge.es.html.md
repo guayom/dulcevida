@@ -1,5 +1,5 @@
 ---
-title: La Dulce Vida Consierge
+title: La Dulce Vida Concierge
 subtitle: Luxury Services for Residents
 weight: 3
 ---

@@ -1,9 +1,9 @@
 ---
-title: La Dulce Vida Consierge
+title: La Dulce Vida Concierge
 subtitle: Luxury Services for Residents
 weight: 3
 ---
-## Setting the Standard in Ultimate Consierge Services
+## Setting the Standard in Ultimate Concierge Services
 
 ![La Dulce Vida Concierge](/images/pages/concierge-2-small.jpg)
 

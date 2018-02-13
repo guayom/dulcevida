@@ -3,7 +3,7 @@ es:
   paths:
     "la-dulce-vida": "la-dulce-vida"
     "available-home-sites": "residencias-disponibles"
-    "consierge-center": "ldv-consierge"
+    "concierge-center": "ldv-concierge"
     location: ubicacion
     "beach-club": "club-de-playa"
     "4500-acres-to-explore": "4500-acres-para-explorar"
@@ -37,7 +37,7 @@ es:
     'enjoy-explore': Disfrute y explore
     'contact-us': Contacto
     "available-home-sites": "Residencias disponibles"
-    "consierge-center": "Consierge"
+    "concierge-center": "Concierge"
     location: Ubicación
     "beach-club": Club de playa
     "4500-acres-to-explore": 4500 acres para explorar
@@ -50,7 +50,7 @@ es:
     "tours-excursions": Recorridos turisticos y excursiones
     surf: Surf
     "developers-vision": Visión del desarrollador
-    "ldv-consierge": Consierge
+    "ldv-concierge": Concierge
     "ammenities": Amenidades
     "architect-builder-partners": Architect & Builder partners
     guanacaste: Guanacaste
